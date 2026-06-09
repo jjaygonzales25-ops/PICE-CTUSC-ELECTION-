@@ -1,0 +1,12 @@
+function submitVote() {
+    const selected =
+        document.querySelector('input[name="president"]:checked');
+
+    if (!selected) {
+        alert("Please select a candidate.");
+        return;
+    }
+
+    document.getElementById("message").innerHTML =
+        "Vote submitted for " + selected.value;
+}
