@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICE CTUSC Election</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>PICE CTUSC Student Election</h1>
+
+        <h2>President</h2>
+
+        <div class="candidate">
+            <input type="radio" name="president" value="Candidate A">
+            Candidate A
+        </div>
+
+        <div class="candidate">
+            <input type="radio" name="president" value="Candidate B">
+            Candidate B
+        </div>
+
+        <button onclick="submitVote()">Submit Vote</button>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
